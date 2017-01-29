@@ -9,6 +9,7 @@ public class testingGit {
 		stars.add(new Stars());
 		stars.add(new BigStar());
 		stars.add(new SmallStar());
+		stars.add(new Suppernova());
 		
 		for(int i = 0; i < stars.size(); i++){
 			System.out.println(stars.get(i).toString());

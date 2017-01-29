@@ -10,7 +10,7 @@ public class testingGit {
 		stars.add(new BigStar());
 		stars.add(new SmallStar());
 		stars.add(new Suppernova());
-		stars.add(new BlackWhole());
+		stars.add(new BlackWhole()); //new
 		
 		for(int i = 0; i < stars.size(); i++){
 			System.out.println(stars.get(i).toString());

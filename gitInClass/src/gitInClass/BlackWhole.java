@@ -1,5 +1,6 @@
 package gitInClass;
 
+// new
 public class BlackWhole extends Stars {
 	String whatAmI = "Collapced Star";
 

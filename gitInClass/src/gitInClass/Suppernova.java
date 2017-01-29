@@ -7,5 +7,4 @@ public class Suppernova extends Stars {
 	public String toString() {
 		return "Suppernova [whatAmI=" + whatAmI + "]";
 	}
-
 }

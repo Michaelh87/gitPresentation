@@ -2,6 +2,8 @@ package gitInClass;
 
 import java.util.ArrayList;
 
+//testing
+
 public class testingGit {
 	public static void main(String args[]){
 		ArrayList<Stars> stars = new ArrayList<Stars>();

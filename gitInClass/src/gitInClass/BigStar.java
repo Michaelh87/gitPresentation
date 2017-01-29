@@ -1,6 +1,6 @@
 package gitInClass;
 
-public class bigStar extends Stars {
+public class BigStar extends Stars {
 	String whatAmI = "Beetlejuice";
 
 	@Override

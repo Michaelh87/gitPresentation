@@ -1,7 +1,18 @@
 package gitInClass;
 
+import java.util.ArrayList;
+
 public class testingGit {
 	public static void main(String args[]){
-		testingGit tGit = new testingGit();
+		ArrayList<Stars> stars = new ArrayList<Stars>();
+		
+		stars.add(new Stars());
+		stars.add(new BigStar());
+		stars.add(new SmallStar());
+		
+		for(int i = 0; i < stars.size(); i++){
+			System.out.println(stars.get(i).toString());
+		}
+		
 	}
 }
